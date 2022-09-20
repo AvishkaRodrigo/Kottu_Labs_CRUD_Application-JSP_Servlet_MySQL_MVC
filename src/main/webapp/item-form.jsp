@@ -46,7 +46,7 @@
 		      </div>
 		      
 		      <c:if test="${item != null}">
-		      	<div class="form-group">
+		      	<div class="form-group d-none">
 		           <label for="itemCode" class="form-label">Item Code</label>
 		           <input type="number" class="form-control" name="itemCode" id="itemCode" value='${item.itemCode}'>
 		        </div>

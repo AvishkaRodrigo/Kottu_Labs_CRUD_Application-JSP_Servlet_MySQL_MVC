@@ -14,7 +14,7 @@ public class ItemDao {
 	private String jdbcUrl = "jdbc:mysql://localhost:3306/kottulabs?useSSL=false";
 	private String userName = "root";
 	private String password = "";
-	private String driver = "com.mysql.cj.jdbc.Driver";
+//	private String driver = "com.mysql.cj.jdbc.Driver";
 	
 	private static final String INSERT_ITEMS_SQL = "INSERT INTO items" + " ( name, price, type) VALUES " + " (?,?,?);";
 	private static final String SELECT_ITEM_BY_ID= "select itemCode,name,price,type from items where itemCode=?";
